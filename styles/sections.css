@@ -20,6 +20,11 @@
       bottom: 0;
       padding: 24px;
 
+      /* isso é basicamente um if dentro do css */
+      &:has(.text-lg) {
+        padding: 12px;
+      }
+
       h2 {
         margin-top: 8px;
       }
